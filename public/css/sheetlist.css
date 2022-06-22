@@ -1,0 +1,170 @@
+/* sheet list left side bar */
+#sidebar_sheet {
+    padding: 5px 5px;
+    overflow: auto;
+    height: 76vh;
+    border: 1px solid #006c5c;
+    border-radius: 3px;
+}
+
+.sidebar_sheet_button, .sidebar_measurement_button {
+    font-size: 14px;
+    color: grey;
+}
+
+.sidebar_segment {
+    padding-left: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 14px;
+    color: grey;
+}
+
+
+.dropdown-toggle::after {
+    content: normal;
+}
+
+#sidebar ul li a:hover {
+    color: white;
+    background: #365799;
+}
+
+.sheet-tab a.nav-link.active {
+    background: #365799;
+    color: #ffffff;
+}
+
+#sheet_sidebar li a:hover {
+    color: inherit !important;
+    background: none !important;
+}
+
+#sheet_sidebar li a {
+    color: inherit !important;
+    background: none !important;
+}
+
+
+/* sheet list image style */
+.sheet_image {
+    border: 1px solid #e1d8d8;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 200px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.sheet_name_edit {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.delete a.delete_sheet {
+    color: red;
+}
+
+.download {
+    border-left: 1px solid #e1d8d8;
+    border-right: 1px solid #e1d8d8;
+}
+
+.download a.download_sheet {
+    color: #365799;
+}
+
+
+.sheet_image > .sheet_title {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+}
+
+.measurement_info {
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: -8px;
+}
+
+#sidebar a.nav-link.active {
+    background: #365799;
+    color: #ffffff;
+}
+
+.check_sheet {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 5px;
+    top: 5px;
+}
+
+.select_sheet {
+    padding-left: 25px;
+}
+
+.disable {
+    opacity: 0.8;
+    cursor: not-allowed;
+}
+
+/* document sidebar style */
+.document_left_button {
+    padding-left: 0.1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    color: #006b5c;
+}
+
+.document_left_button:hover {
+    background: #076f6063;
+    color: white;
+}
+
+.left_selected {
+    background: #076f6063;
+    color: white;
+}
+
+.plan-icon {
+    background: url(/icons/sheet_folder_icon.svg) no-repeat center center / 30px 30px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.picture-icon {
+    background: url(/icons/picture.svg) no-repeat center center / 40px 40px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.videos-icon {
+    background: url(/icons/video.svg) no-repeat center center / 40px 40px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.other-files-icon {
+    background: url(/icons/document.svg) no-repeat center center / 40px 40px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}

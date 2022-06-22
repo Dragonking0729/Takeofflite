@@ -1,0 +1,200 @@
+/**
+Responsive for measuring area gfx_holder
+ */
+
+/* measuring area */
+#gfx_holder {
+<<<<<<< HEAD
+    height: 200% !important;
+=======
+    height: 100% !important;
+>>>>>>> 69b892525a7ba4a82dd3d1655758933b720d84ea
+    position: relative;
+
+    padding: 0;
+    margin: 0;
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow: scroll;
+}
+
+.measuring-area {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /*#gfx_holder {*/
+    /*    width: calc(100vw - 20px);*/
+    /*    height: calc(100vh - 290px);*/
+    /*}*/
+    .measuring-area {
+        background: transparent url("/img/drawing_area_bg.png");
+        height: calc(100vh - 303px);
+        width: calc(100vw - 20px);
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /*#gfx_holder {*/
+    /*    width: calc(100vw - 20px);*/
+    /*    height: calc(100vh - 290px);*/
+    /*}*/
+    .measuring-area {
+        background: transparent url("/img/drawing_area_bg.png");
+        height: calc(100vh - 303px);
+        width: calc(100vw - 20px);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /*#gfx_holder {*/
+    /*    width: calc(100vw - 20px);*/
+    /*    height: calc(100vh - 290px);*/
+    /*}*/
+    .measuring-area {
+        background: transparent url("/img/drawing_area_bg.png");
+        height: calc(100vh - 303px);
+        width: calc(100vw - 20px);
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /*#gfx_holder {*/
+    /*    width: calc(100vw - 622px);*/
+    /*    height: calc(100vh - 290px);*/
+    /*}*/
+    .measuring-area {
+        background: transparent url("/img/drawing_area_bg.png");
+        height: calc(100vh - 290px);
+        width: calc(100vw - 322px);
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1330px) {
+    /*#gfx_holder {*/
+    /*    width: calc(100vw - 322px);*/
+    /*    height: calc(100vh - 262px);*/
+    /*}*/
+    .measuring-area {
+        background: transparent url("/img/drawing_area_bg.png");
+        height: calc(100vh - 262px);
+        width: calc(100vw - 322px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** measurement tooltip */
+.tooltip {
+    position: absolute;
+    background: #88b7d5;
+    border: 2px solid #c2e1f5;
+    padding:10px;
+    border-radius:6px;
+}
+
+.tooltip:after,.tooltip:before {
+    bottom: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.tooltip:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: #88b7d5;
+    border-width: 4px;
+    left: 50%;
+    margin-left: -4px;
+}
+
+.tooltip:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: #c2e1f5;
+    border-width: 8px;
+    left: 50%;
+    margin-left: -8px;
+}
+
+.measurement_info {
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: -8px;
+}
+
+.measurement_info span:hover{
+    color: #17a2b8;
+    cursor: pointer;
+}
+
+.total_measurement_info {
+    margin-left: 8px;
+    font-size: 12px;
+    margin-top: -8px;
+}
+
+.total_measurement_info span:hover{
+    color: #17a2b8;
+    cursor: pointer;
+}
+
+.segment-selected {
+    background: #26367b;
+    color: white;
+    padding-left: 2px;
+}
+
+.measurement-eye:hover {
+    cursor: pointer;
+    color: #365799;
+}
+
+#remove_measurement_objects {
+    cursor: pointer;
+}
+
+#remove_measurement_objects:hover {
+    color: red;
+}
+
+#current_function_in {
+    color: #36589a;
+    display: none;
+    margin-right: 0.25rem;
+}
+
+.draw2d_shape_basic_Image {
+    cursor: pointer;
+}

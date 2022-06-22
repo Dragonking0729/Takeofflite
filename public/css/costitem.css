@@ -1,0 +1,114 @@
+/* cost item style */
+.form-group.required .col-form-label:after {
+    content: "*";
+    color: red;
+}
+
+.error {
+    color: red;
+}
+
+.cost_item_block {
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border-color: #136f61;
+}
+
+#alabor_conversion_factor_area,
+#amaterial_conversion_factor_area,
+#asubcontract_conversion_factor_area {
+    display: none;
+}
+
+/* responsive select2 width */
+.select2-container {
+    width: 100% !important;
+}
+
+.select2-search--dropdown .select2-search__field {
+    width: 98%;
+}
+
+.open_new_question_modal:hover {
+    background: #076f6063;
+}
+
+.open_save_formula_modal:hover {
+    background: #076f6063;
+}
+
+/* tree icons style */
+
+#costitem_tree, #create_costitem_tree {
+    height: 50vh;
+    overflow: auto;
+}
+
+.tree_expand {
+    background: url("/icons/ss_tree_expand.svg") no-repeat 0 0 / 40px 30px;
+    width: 44px;
+    height: 30px;
+}
+
+.tree_collapse {
+    background: url("/icons/ss_tree_collapse.svg") no-repeat 0 0 / 40px 30px;
+    width: 44px;
+    height: 30px;
+}
+
+.search_tree {
+    background: url("/icons/ss_tree_search.svg") no-repeat 0 0 / 40px 30px;
+    width: 50px;
+    height: 30px;
+}
+
+.clear_search {
+    background: url("/icons/ss_clear_search.svg") no-repeat 0 0 / 40px 27px;
+    width: 50px;
+    height: 30px;
+}
+
+/*use labor, material, sub checkbox style */
+.check_use_labor:hover, .check_use_material:hover, .check_use_sub:hover,
+.a_check_use_labor:hover, .a_check_use_material:hover, .a_check_use_sub:hover {
+    cursor: pointer;
+}
+
+/* advanced section style*/
+.advanced_section {
+    display: none;
+}
+
+.show_hide_advanced_section {
+    margin-top: -10px;
+    margin-bottom: 5px;
+    padding: 4px;
+    border: 1px solid #136f61;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.show_hide_advanced_section:hover {
+    background-color: #076f6063;
+    color: white;
+}
+
+.advanced_icon {
+    background: url("/icons/advanced.svg") no-repeat center center / 25px 25px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.arrow_down_icon {
+    background: url("/icons/arrow_down.svg") no-repeat 0 0 / 25px 25px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 5px;
+}

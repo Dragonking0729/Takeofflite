@@ -1,0 +1,30 @@
+#default_ctrl_btn_group,
+#confirm_renumber_section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* tree icons style */
+.tree_expand {
+    background: url("/icons/ss_tree_expand.svg") no-repeat 0 0 / 40px 30px;
+    width: 44px;
+    height: 30px;
+}
+
+.tree_collapse {
+    background: url("/icons/ss_tree_collapse.svg") no-repeat 0 0 / 40px 30px;
+    width: 44px;
+    height: 30px;
+}
+
+.search_tree {
+    background: url("/icons/ss_tree_search.svg") no-repeat 0 0 / 40px 30px;
+    width: 50px;
+    height: 30px;
+}
+
+.clear_search {
+    background: url("/icons/ss_clear_search.svg") no-repeat 0 0 / 40px 27px;
+    width: 50px;
+    height: 30px;
+}

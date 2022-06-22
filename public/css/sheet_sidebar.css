@@ -1,0 +1,98 @@
+@media only screen and (min-width: 600px) {
+    .sheet-sidebar {
+        height: calc(100vh - 126px);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .sheet-sidebar {
+        height: calc(100vh - 240px);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .sheet-sidebar {
+        height: calc(100vh - 234px);
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1330px) {
+    .sheet-sidebar {
+        height: calc(100vh - 206px);
+    }
+}
+
+/* sheet list left side bar */
+#sidebar_sheet {
+    padding: 5px 5px;
+    overflow: auto;
+    height: 76vh;
+}
+
+.sidebar_sheet_button,
+.sidebar_measurement_button {
+    font-size: 14px;
+    color: grey;
+}
+
+.sidebar_segment {
+    padding-left: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 14px;
+    color: grey;
+}
+
+.dropdown-toggle::after {
+    content: normal;
+}
+
+.nav-link:hover {
+    color: white;
+    background: #365799;
+}
+
+#sheet_sidebar {
+    border-top: 2px solid #006c5c;
+    margin-top: 38px;
+    padding-top: 8px !important;
+}
+#sheet_sidebar li a:hover {
+    color: inherit !important;
+    background: inherit !important;
+}
+
+#sheet_sidebar li a {
+    color: inherit !important;
+}
+
+
+.delete_sheet {
+    color: red;
+}
+
+#sidebar a.nav-link.active {
+    background: #365799;
+    color: #ffffff;
+}
+
+.sheet-tab a.nav-link.active {
+    background: #365799;
+    color: #ffffff;
+}
+
+.sheet-sidebar {
+    padding: 5px 5px;
+    overflow: auto;
+    border: 1px solid #006c5c;
+    border-radius: 3px;
+}
+
+.remove-measurements-icons {
+    background: url(/icons/ss_delete.svg) no-repeat center center / 20px 20px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}

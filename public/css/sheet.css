@@ -1,0 +1,32 @@
+.sheet_div {
+    padding: 5px 5px;
+    border: 2px solid #006c5c;
+    border-radius: 3px;
+}
+
+.measurement-top-area {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #006c5c;
+    padding-bottom: 7px;
+    margin-bottom: 0.25rem;
+}
+
+.zoomInBtn {
+    background: url(/icons/minus.svg) no-repeat center center / 22px 22px;
+    width: 22px;
+    height: 22px;
+    border-color: #006c5c;
+}
+
+.zoomOutBtn {
+    background: url(/icons/plus.svg) no-repeat center center / 22px 22px;
+    width: 22px;
+    height: 22px;
+    border-color: #006c5c;
+}
+
+.zoomResetBtn {
+    border-color: #006c5c;
+    color: #006c5c;
+}

@@ -1,0 +1,268 @@
+/** header style */
+.header {
+    min-height: 15%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+/** navbar style */
+.navbar-custom-bg {
+    background: linear-gradient(to bottom, #4167af 0%, #2b4985 100%);
+}
+
+/* footer style */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* sheet tab */
+.sheet-tab {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    padding: 5px 5px 0;
+    border-left: 1px solid #006b5c;
+    border-right: 1px solid #006b5c;
+    border-top: 1px solid #006b5c;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.non-group {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    padding: 5px 5px 0;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.sheet-tab > label {
+    position: absolute;
+    top: 111px;
+    background-color: white;
+    color: #006b5c;
+    line-height: 12px;
+    font-size: 12px;
+}
+
+.first_group_label {
+    left: 75px;
+}
+
+.second_group_label {
+    left: 400px;
+}
+
+.third_group_label {
+    left: 900px;
+}
+
+.sheet-tab .nav-item {
+    white-space: nowrap;
+}
+
+.sheet-tab li {
+    border: 1px solid #365799;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.non-group li {
+    border: 1px solid #365799;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+/* resizable sidebar */
+/*html {*/
+/*height: 100%;*/
+/*}*/
+/*body {*/
+/*box-sizing: border-box;*/
+/*height: 100%;*/
+/*margin: 0;*/
+/*padding: 30px;*/
+/*}*/
+/*.wrapper {*/
+/*height: 100%;*/
+/*overflow: hidden;*/
+/*background-color: white;*/
+/*}*/
+/*.wrapper {*/
+/*display: -ms-flexbox;*/
+/*display: -webkit-flex;*/
+/*display: flex;*/
+/*-webkit-flex-direction: row;*/
+/*-ms-flex-direction: row;*/
+/*flex-direction: row;*/
+/*-webkit-flex-wrap: nowrap;*/
+/*-ms-flex-wrap: nowrap;*/
+/*flex-wrap: nowrap;*/
+/*-webkit-justify-content: flex-start;*/
+/*-ms-flex-pack: start;*/
+/*justify-content: flex-start;*/
+/*-webkit-align-content: stretch;*/
+/*-ms-flex-line-pack: stretch;*/
+/*align-content: stretch;*/
+/*-webkit-align-items: stretch;*/
+/*-ms-flex-align: stretch;*/
+/*align-items: stretch;*/
+/*}*/
+/*.wrapper > aside {*/
+/*-webkit-order: 0;*/
+/*-ms-flex-order: 0;*/
+/*order: 0;*/
+/*-webkit-flex: 0 0 auto;*/
+/*-ms-flex: 0 0 auto;*/
+/*flex: 0 0 auto;*/
+/*-webkit-align-self: auto;*/
+/*-ms-flex-item-align: auto;*/
+/*align-self: auto;*/
+/*}*/
+/*.wrapper > main {*/
+/*-webkit-order: 0;*/
+/*-ms-flex-order: 0;*/
+/*order: 0;*/
+/*-webkit-flex: 1 1 auto;*/
+/*-ms-flex: 1 1 auto;*/
+/*flex: 1 1 auto;*/
+/*-webkit-align-self: auto;*/
+/*-ms-flex-item-align: auto;*/
+/*align-self: auto;*/
+/*}*/
+/*.wrapper > aside,*/
+/*.wrapper > main {*/
+/*padding: 10px;*/
+/*overflow: auto;*/
+/*}*/
+/*.resize-handle--x {*/
+/*-webkit-flex: 0 0 auto;*/
+/*-ms-flex: 0 0 auto;*/
+/*flex: 0 0 auto;*/
+/*position: relative;*/
+/*box-sizing: border-box;*/
+/*width: 3px;*/
+/*height: 100%;*/
+/*border-left-width: 1px;*/
+/*border-left-style: solid;*/
+/*border-left-color: black;*/
+/*border-right-width: 1px;*/
+/*border-right-style: solid;*/
+/*border-right-color: black;*/
+/*cursor: ew-resize;*/
+/*-webkit-touch-callout: none;*/
+/*-webkit-user-select: none;*/
+/*-khtml-user-select: none;*/
+/*-moz-user-select: none;*/
+/*-ms-user-select: none;*/
+/*user-select: none;*/
+/*}*/
+/*.resize-handle--x:before {*/
+/*content: "";*/
+/*position: absolute;*/
+/*z-index: 1;*/
+/*top: 50%;*/
+/*right: 100%;*/
+/*height: 18px;*/
+/*width: 2px;*/
+/*margin-top: -9px;*/
+/*border-left-color: black;*/
+/*border-left-width: 1px;*/
+/*border-left-style: solid;*/
+/*}*/
+/*.resize-handle--x:after {*/
+/*content: "";*/
+/*position: absolute;*/
+/*z-index: 1;*/
+/*top: 50%;*/
+/*left: 100%;*/
+/*height: 18px;*/
+/*width: 2px;*/
+/*margin-top: -9px;*/
+/*border-right-color: black;*/
+/*border-right-width: 1px;*/
+/*border-right-style: solid;*/
+/*}*/
+
+/* loading spinner style */
+.someBlock {
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*z-index: 9999;*/
+}
+
+/* update mouse cursor to move when dragging modal */
+.ui-draggable-dragging {
+    cursor: move;
+}
+
+.modal-content.ui-resizable {
+    overflow: scroll;
+}
+
+/* resizable modal icon */
+.ui-icon-gripsmall-diagonal-se {
+    background-position: -178px -48px;
+}
+
+.modal-header {
+    background: #365799;
+}
+
+.modal-title {
+    color: white;
+}
+
+.addons-lightblue {
+    background: #c5ceff;
+}
+
+.font-color-gray {
+    color: #685e5e;
+}
+
+.addon-overflow-y {
+    height: 120px;
+    overflow-y: auto;
+}
+.fixed-position-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.sticky-position-bottom {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+.mr-5px {
+    margin-right: 5px;
+}
+
+.width-20px {
+    width: 20px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+.get_measuring_other {
+    background: url(/icons/ss_measure.svg) 0 0 / 25px 40px;
+    width: 25px;
+}
+
+.width-50p {
+    width: 50%;
+}
+
+.mt-15px {
+    margin-top: 15px;
+}

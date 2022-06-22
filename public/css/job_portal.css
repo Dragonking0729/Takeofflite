@@ -1,0 +1,249 @@
+/* project address map and street */
+#map,
+#pano {
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+
+/* job portal footer style */
+.job_portal_footer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 5px 0 5px 0;
+    padding: 5px 2px 5px 2px;
+    border-top: 2px solid #006b5c;
+    background: white;
+}
+
+.job_portal_footer div {
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+}
+
+.job_portal_footer div a {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.job_detail_nav_icon {
+    background: url(/icons/fc_job_details.png) no-repeat center center / 25px 25px;
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.job_scope_work_nav_icon {
+    background: url(/icons/fc_job_scope.png) no-repeat center center / 27px 25px;
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.job_budget_nav_icon {
+    background: url(/icons/fc_job_budget.png) no-repeat center center / 27px 27px;
+    display: block;
+    height: 25px;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.job_detail_analyzer_nav_icon {
+    background: url(/icons/fc_job_deal.png) no-repeat center center / 30px 30px;
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.job_picture_nav_icon {
+    background: url(/icons/fc_job_pictures.png) no-repeat center center / 25px 25px;
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* end job portal footer style */
+
+
+/* job detail style */
+.project_name {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.job_address {
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+}
+
+#job_detail_flip {
+    overflow-y: scroll;
+}
+
+.show-financing-detail, .show-acquisition-detail, .show-holding-detail, .show-selling-detail {
+    cursor: pointer;
+}
+
+.acquisition-detail, .holding-detail, .financing-detail, .selling-detail {
+    display: none;
+    margin-bottom: 1rem;
+    border: 1px solid #006b5c;
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.detail-total-cost {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+    background-color: #f6ffff;
+    width: 100%;
+}
+
+@media only screen and (max-width: 320px) {
+    #job_detail_flip {
+        height: 280px;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    #job_detail_flip {
+        height: 340px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #job_detail_flip {
+        height: 530px;
+    }
+}
+
+/* end job detail style */
+
+
+/* job budget style */
+.budget_table tr th, td {
+    border: 1px solid #cccccc;
+    padding: 5px;
+    text-align: center;
+}
+
+.budget_table thead tr th {
+    height: 50px;
+    background-color: #f3f3f3;
+    color: grey;
+}
+
+.budget_table tbody tr td {
+    line-height: 13px;
+    font-size: 13px;
+}
+
+.budget_table tr td:first-child, .budget_table tr th:first-child {
+    border-right: 2px solid #006b5c;
+}
+
+.budget_table tr td:nth-child(4), .budget_table tr th:nth-child(4) {
+    border-right: 2px solid #006b5c;
+}
+
+.budget_table tr:last-child td {
+    border-bottom: 2px solid #006b5c;
+}
+
+@media only screen and (max-width: 320px) {
+    .job_budget {
+        height: 450px;
+        overflow-y: scroll;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 360px) {
+    .job_budget {
+        height: 510px;
+        overflow-y: scroll;
+    }
+}
+
+/* end job budget style */
+
+/* job analyzer style */
+@media only screen and (max-width: 320px) {
+    .job_analyzer {
+        height: 450px;
+        overflow-y: scroll;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 360px) {
+    .job_analyzer {
+        height: 510px;
+        overflow-y: scroll;
+    }
+}
+
+.flip-analysis-card {
+    font-size: 14px;
+}
+
+.flip-analysis-line {
+    padding: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.profit, .max_purchase_price {
+    padding: 10px;
+    border-bottom: 1px solid #3cbc8d;
+    background-color: #f5fbf9;
+}
+
+.negative {
+    background-color: #ffe6e6;
+    border-bottom-color: #FF232B;
+}
+
+/* end job analyzer style */
+
+
+/* job picture style */
+@media only screen and (max-width: 320px) {
+    .job_pictures {
+        height: 450px;
+        overflow-y: scroll;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 360px) {
+    .job_pictures {
+        height: 510px;
+        overflow-y: scroll;
+    }
+}
+
+/* end job picture style */

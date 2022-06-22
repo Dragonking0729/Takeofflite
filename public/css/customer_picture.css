@@ -1,0 +1,57 @@
+/* customer portal picture list style */
+.sheet_image {
+    border: 1px solid #e1d8d8;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 200px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.sheet_name_edit {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.delete a.delete_sheet {
+    color: red;
+}
+
+.download {
+    border-left: 1px solid #e1d8d8;
+}
+
+.download a.download_sheet {
+    color: #365799;
+}
+
+
+.sheet_image > .sheet_title {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+}
+
+.check_sheet {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 5px;
+    top: 5px;
+}
+
+.select_sheet {
+    padding-left: 25px;
+}

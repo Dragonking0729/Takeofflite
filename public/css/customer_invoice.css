@@ -1,0 +1,163 @@
+/* responsive for print*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #invoice_preview_content {
+        padding: 3rem 20rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #invoice_preview_content {
+        padding: 3rem 20rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #invoice_preview_content {
+        padding: 3rem 20rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #invoice_preview_content {
+        padding: 3rem 20rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #invoice_preview_content {
+        padding: 3rem 20rem;
+    }
+}
+
+/* end responsive for print invoice*/
+
+/* invoice toolbar style */
+#invoice_toolbar {
+    color: #006c5c;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    padding: 4px;
+    margin: 1px 4px 2px 1px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    min-width: fit-content;
+    font-size: 16px;
+    font-weight: bold;
+    display: none;
+}
+
+.print_invoice {
+    background: url("/icons/ss_print.svg") no-repeat 0 0 / 25px 25px;
+    width: 25px;
+    height: 27px;
+}
+
+/* invoice preview style*/
+#invoice_preview_block {
+    display: none;
+}
+
+#invoice_items_block {
+    height: 40vh;
+    overflow: auto;
+}
+
+.invoice_header_title {
+    background-color: #365799;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.invoice_pay_block {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.invoice_pay_button {
+    background-color: #365799;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: auto;
+    width: 30%;
+    padding: 5px;
+}
+
+.invoice_pay_button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.invoice_preview_header {
+    color: #006c5c;
+    border-bottom: 1px solid;
+}
+
+.invoice_body_items {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.invoice_body_items table {
+    width: 100%;
+}
+
+.invoice_body_items tr {
+    border-bottom: 1px solid grey;
+}
+
+.invoice_body_items table tr th:nth-child(1) {
+    width: 20%;
+}
+
+.invoice_body_items table tr th:nth-child(2) {
+    width: 80%;
+}
+
+.invoice_body_items div {
+    color: white;
+    background-color: #365799;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.invoice_preview_total_price {
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+}
+
+.invoice_sign_print_date {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.invoice_sign_print_date table {
+    width: 50%;
+}
+
+.invoice_sign_print_date table tr td:nth-child(1) {
+    width: 30%;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.invoice_sign_print_date table tr td:nth-child(2) {
+    width: 70%;
+    border-bottom: 1px solid grey;
+}

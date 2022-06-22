@@ -1,0 +1,174 @@
+/* formula style */
+.tag-container,
+.add-tag-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag-container .tag,
+.new {
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 2px 0 2px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    background: #F2F2F2;
+}
+
+.tag-container .variable {
+    background: #283578;
+}
+
+.tag-container .operator {
+    background: #006b5c;
+}
+
+.tag-container .constant {
+    background: lightblue;
+}
+
+.tag-container .function {
+    background: grey;
+}
+
+.add-tag-container .variable {
+    background: #283578;
+}
+
+.add-tag-container .operator {
+    background: #006b5c;
+}
+
+.add-tag-container .function {
+    background: grey;
+}
+
+.add-tag-container .constant {
+    background: lightblue;
+}
+
+.tag-container .selected {
+    opacity: 0.6;
+}
+
+.add-tag-container .add-selected {
+    opacity: 0.6;
+}
+
+.remove-tags,
+.add-remove-tags {
+    cursor: pointer;
+}
+
+.tag-container .cursor-input input {
+    flex: 1;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+    border: 0;
+}
+
+.add-tag-container input {
+    flex: 1;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+    border: 0;
+}
+
+.cursor-input {
+    width: 6px;
+}
+
+.new-input {
+    width: 6px;
+}
+
+.current {
+    width: 56px;
+}
+
+.add-current {
+    width: 56px;
+}
+
+.operators {
+    border: 2px solid #8faadb;
+    padding: 8px;
+    background: #ddebf7;
+    color: #548337;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.operators:hover {
+    cursor: pointer;
+    background: #acbfdb;
+}
+
+.add_operators {
+    border: 2px solid #8faadb;
+    padding: 4px;
+    background: #ddebf7;
+    color: #548337;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.add_operators:hover {
+    cursor: pointer;
+    background: #acbfdb;
+}
+
+#test_formula_body label {
+    color: #006b5c;
+}
+
+#test_formula_body .form-group {
+    margin-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.save-formula-icon,
+.new-question-icon {
+    width: 30px;
+}
+
+.open_new_question_modal:hover {
+    background: #076f6063;
+}
+
+.open_save_formula_modal:hover {
+    background: #076f6063;
+}
+
+.help_question {
+    text-align: center;
+    font-size: 12px;
+    color: #365799;
+    margin-left: 15px;
+}
+
+.select2-container {
+    width: 100% !important;
+}
+
+#open_assembly_item_formula_test_modal, #test_formula, #test_formula_add {
+    background: url('/icons/experiment.svg') no-repeat center center / 30px 30px;
+    width: 30px;
+}
+
+#open_assembly_item_formula_test_modal:hover, #test_formula_add:hover, #test_formula:hover {
+    background-color: #076f6063;
+}
+
+.input-group-text {
+    color: #006b5c;
+}

@@ -1,0 +1,77 @@
+#default_ctrl_btn_group,
+#confirm_renumber_section {
+    display: flex;
+    flex-direction: column;
+}
+
+table tr td,
+th {
+    text-align: center;
+}
+
+.formula_modal_open {
+    color: #006b5c;
+}
+
+/* responsive select2 width */
+.select2-container{
+    width: 100%!important;
+}
+.select2-search--dropdown .select2-search__field {
+    width: 98%;
+}
+
+.grab-hand, .a_grab-hand {
+    background: url("/icons/grab_hand.svg") no-repeat center center / 20px 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.up-down-item, .a_up-down-item{
+    background: url("/icons/up_down.svg") no-repeat center center / 15px 15px;
+    width: 15px;
+    height: 15px;
+}
+
+.calculator-icon {
+    background: url("/icons/calculator.svg") no-repeat center center / 30px 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.formula-exist-icon {
+    background: url("/icons/check_mark.svg") no-repeat center center / 30px 30px;
+    width: 30px;
+    height: 30px;
+}
+
+/* tree icons style */
+.tree_expand {
+    background: url("/icons/ss_tree_expand.svg") no-repeat 0 0 / 40px 30px;
+    width: 44px;
+    height: 30px;
+}
+
+.tree_collapse {
+    background: url("/icons/ss_tree_collapse.svg") no-repeat 0 0 / 40px 30px;
+    width: 44px;
+    height: 30px;
+}
+
+.search_tree {
+    background: url("/icons/ss_tree_search.svg") no-repeat 0 0 / 40px 30px;
+    width: 50px;
+    height: 30px;
+}
+
+.clear_search {
+    background: url("/icons/ss_clear_search.svg") no-repeat 0 0 / 40px 27px;
+    width: 50px;
+    height: 30px;
+}
+
+.remove_selected_items_icon, .a_remove_selected_items_icon {
+    background: url("/icons/ss_delete.svg") no-repeat center center / 20px 20px;
+    width: 20px;
+    height: 20px;
+}

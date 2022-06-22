@@ -1,0 +1,79 @@
+.jstree-default .jstree-icon:empty {
+    width: 20px;
+}
+
+#customer_portal_list ul li {
+    font-size: 16px !important;
+}
+
+#customer_portal_list ul li > ul {
+    margin-left: -12px !important;
+}
+
+#sidebar a.nav-link.active {
+    background: #365799;
+    color: #ffffff;
+}
+
+.btn-active {
+    color: #ffffff;
+    background-color: #076f6063 !important;
+    border-color: #076f6063;
+}
+
+.ask_interview_div {
+    border: 1px solid #006c5c;
+    border-radius: 3px;
+}
+
+.tree_search_area {
+    border: 1px solid #006c5c;
+    border-radius: 3px;
+    padding: 1px;
+    display: flex;
+}
+
+.ss_tree_expand {
+    background: url("/icons/ss_tree_expand.svg") no-repeat 0 0 / 38px 38px;
+    width: 38px;
+    height: 38px;
+}
+
+.ss_tree_collapse {
+    background: url("/icons/ss_tree_collapse.svg") no-repeat 0 0 / 38px 38px;
+    width: 38px;
+    height: 38px;
+}
+
+.ss_search_tree_icon {
+    background: url("/icons/ss_tree_search.svg") no-repeat 0 0 / 38px 38px;
+    width: 55px;
+    height: 38px;
+}
+
+.ss_clear_search_icon {
+    background: url("/icons/ss_clear_search.svg") no-repeat 0 0 / 38px 38px;
+    width: 55px;
+    height: 38px;
+}
+
+.customer_portal_list_area {
+    border: 1px solid #006c5c;
+    border-radius: 3px;
+    margin-top: 1px;
+}
+
+#customer_portal_list {
+    overflow: auto;
+    height: 75vh;
+}
+
+.not_viewed::after {
+    content:"\A";
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background: red;
+    display:inline-block;
+    margin:0 5px;
+}

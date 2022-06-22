@@ -1,0 +1,12 @@
+/* stored formula css */
+.search_tree {
+    background: url("/icons/ss_tree_search.svg") no-repeat 0 0 / 40px 30px;
+    width: 50px;
+    height: 30px;
+}
+
+.clear_search {
+    background: url("/icons/ss_clear_search.svg") no-repeat 0 0 / 40px 27px;
+    width: 50px;
+    height: 30px;
+}

@@ -1,0 +1,426 @@
+warning: LF will be replaced by CRLF in app/Http/Controllers/CostItemController.php.
+The file will have its original line endings in your working directory
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex cb6705d..5b79a09 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -2,8 +2,11 @@[m
+ <project version="4">[m
+   <component name="ChangeListManager">[m
+     <list default="true" id="4559de9e-6711-4d79-a524-61267447e34f" name="Default" comment="">[m
+[31m-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />[m
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CostItemController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CostItemController.php" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/costitem.css" afterPath="$PROJECT_DIR$/public/css/costitem.css" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/costitem/create-costitem.blade.php" afterPath="$PROJECT_DIR$/resources/views/costitem/create-costitem.blade.php" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/scripts/costitem-js.blade.php" afterPath="$PROJECT_DIR$/resources/views/scripts/costitem-js.blade.php" />[m
+[32m+[m[32m      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/scripts/costitem-treejs.blade.php" afterPath="$PROJECT_DIR$/resources/views/scripts/costitem-treejs.blade.php" />[m
+     </list>[m
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />[m
+     <option name="TRACKING_ENABLED" value="true" />[m
+[36m@@ -24,84 +27,144 @@[m
+     <select />[m
+   </component>[m
+   <component name="FileEditorManager">[m
+[31m-    <splitter split-orientation="horizontal" split-proportion="0.6620469">[m
+[31m-      <split-first>[m
+[31m-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">[m
+[31m-          <file leaf-file-name="CostItemController.php" pinned="false" current-in-tab="true">[m
+[31m-            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CostItemController.php">[m
+[31m-              <provider selected="true" editor-type-id="text-editor">[m
+[31m-                <state relative-caret-position="310">[m
+[31m-                  <caret line="29" column="69" lean-forward="true" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />[m
+[31m-                  <folding>[m
+[31m-                    <element signature="e#40#59#0#PHP" expanded="true" />[m
+[31m-                    <element signature="e#4467#5713#0#PHP" expanded="false" />[m
+[31m-                  </folding>[m
+[31m-                </state>[m
+[31m-              </provider>[m
+[31m-            </entry>[m
+[31m-          </file>[m
+[31m-          <file leaf-file-name="CostGroupController.php" pinned="false" current-in-tab="false">[m
+[31m-            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CostGroupController.php">[m
+[31m-              <provider selected="true" editor-type-id="text-editor">[m
+[31m-                <state relative-caret-position="198">[m
+[31m-                  <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />[m
+[31m-                  <folding>[m
+[31m-                    <element signature="e#647#1893#0#PHP" expanded="false" />[m
+[31m-                  </folding>[m
+[31m-                </state>[m
+[31m-              </provider>[m
+[31m-            </entry>[m
+[31m-          </file>[m
+[31m-        </leaf>[m
+[31m-      </split-first>[m
+[31m-      <split-second>[m
+[31m-        <leaf>[m
+[31m-          <file leaf-file-name="CostGroupController.php" pinned="false" current-in-tab="true">[m
+[31m-            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CostGroupController.php">[m
+[31m-              <provider selected="true" editor-type-id="text-editor">[m
+[31m-                <state relative-caret-position="703">[m
+[31m-                  <caret line="50" column="17" lean-forward="false" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />[m
+[31m-                  <folding />[m
+[31m-                </state>[m
+[31m-              </provider>[m
+[31m-            </entry>[m
+[31m-          </file>[m
+[31m-        </leaf>[m
+[31m-      </split-second>[m
+[31m-    </splitter>[m
+[32m+[m[32m    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">[m
+[32m+[m[32m      <file leaf-file-name="CostItemController.php" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CostItemController.php">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="426">[m
+[32m+[m[32m              <caret line="256" column="26" lean-forward="false" selection-start-line="256" selection-start-column="17" selection-end-line="256" selection-end-column="26" />[m
+[32m+[m[32m              <folding>[m
+[32m+[m[32m                <element signature="e#40#59#0#PHP" expanded="true" />[m
+[32m+[m[32m                <element signature="e#321#602#0#PHP" expanded="false" />[m
+[32m+[m[32m                <element signature="e#636#2480#0#PHP" expanded="false" />[m
+[32m+[m[32m                <element signature="e#1200#2446#0#PHP" expanded="false" />[m
+[32m+[m[32m                <element signature="e#2526#6007#0#PHP" expanded="false" />[m
+[32m+[m[32m                <element signature="e#3424#5973#0#PHP" expanded="false" />[m
+[32m+[m[32m                <element signature="e#6995#8054#0#PHP" expanded="false" />[m
+[32m+[m[32m                <element signature="e#9905#10134#0#PHP" expanded="false" />[m
+[32m+[m[32m              </folding>[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="costitem-js.blade.php" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/resources/views/scripts/costitem-js.blade.php">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="463">[m
+[32m+[m[32m              <caret line="254" column="7" lean-forward="true" selection-start-line="254" selection-start-column="7" selection-end-line="254" selection-end-column="7" />[m
+[32m+[m[32m              <folding>[m
+[32m+[m[32m                <element signature="e#203#433#0#HTML" expanded="false" />[m
+[32m+[m[32m                <element signature="e#467#721#0#HTML" expanded="false" />[m
+[32m+[m[32m                <element signature="e#809#850#0#HTML" expanded="false" />[m
+[32m+[m[32m                <element signature="e#886#927#0#HTML" expanded="false" />[m
+[32m+[m[32m                <element signature="e#967#1717#0#HTML" expanded="false" />[m
+[32m+[m[32m                <element signature="e#1778#2163#0#HTML" expanded="false" />[m
+[32m+[m[32m                <element signature="e#2455#2496#0#HTML" expanded="false" />[m
+[32m+[m[32m                <element signature="e#2568#2710#0#HTML" expanded="false" />[m
+[32m+[m[32m                <element signature="e#2830#2978#0#HTML" expanded="false" />[m
+[32m+[m[32m                <element signature="e#3047#4701#0#HTML" expanded="false" />[m
+[32m+[m[32m                <element signature="e#4770#6167#0#HTML" expanded="false" />[m
+[32m+[m[32m                <element signature="e#6253#6829#0#HTML" expanded="false" />[m
+[32m+[m[32m                <element signature="e#6928#8493#0#HTML" expanded="false" />[m
+[32m+[m[32m                <element signature="e#8597#9222#0#HTML" expanded="false" />[m
+[32m+[m[32m                <element signature="e#9489#10690#0#HTML" expanded="false" />[m
+[32m+[m[32m              </folding>[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="default-costitem.blade.php" pinned="false" current-in-tab="true">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/resources/views/costitem/default-costitem.blade.php">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="477">[m
+[32m+[m[32m              <caret line="69" column="43" lean-forward="false" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="43" />[m
+[32m+[m[32m              <folding>[m
+[32m+[m[32m                <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#!!top" expanded="true" />[m
+[32m+[m[32m              </folding>[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="show-costitem.blade.php" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/resources/views/costitem/show-costitem.blade.php">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="286">[m
+[32m+[m[32m              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />[m
+[32m+[m[32m              <folding />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="create-costitem.blade.php" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/resources/views/costitem/create-costitem.blade.php">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="880">[m
+[32m+[m[32m              <caret line="40" column="54" lean-forward="true" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />[m
+[32m+[m[32m              <folding>[m
+[32m+[m[32m                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />[m
+[32m+[m[32m              </folding>[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="costitem-treejs.blade.php" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/resources/views/scripts/costitem-treejs.blade.php">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="286">[m
+[32m+[m[32m              <caret line="37" column="57" lean-forward="false" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="57" />[m
+[32m+[m[32m              <folding>[m
+[32m+[m[32m                <element signature="e#2369#3071#0#HTML" expanded="false" />[m
+[32m+[m[32m              </folding>[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="CostGroupController.php" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CostGroupController.php">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="-2082">[m
+[32m+[m[32m              <caret line="83" column="81" lean-forward="false" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="81" />[m
+[32m+[m[32m              <folding>[m
+[32m+[m[32m                <element signature="e#647#1893#0#PHP" expanded="false" />[m
+[32m+[m[32m              </folding>[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m    </leaf>[m
+   </component>[m
+   <component name="FindInProjectRecents">[m
+     <findStrings>[m
+[31m-      <find>tableWidth</find>[m
+[31m-      <find>activa</find>[m
+[31m-      <find>get_measuring</find>[m
+[31m-      <find>get_ss_group</find>[m
+[31m-      <find>disabled</find>[m
+[31m-      <find>beforedeleteRow</find>[m
+[31m-      <find>toq out</find>[m
+[31m-      <find>selectedrows</find>[m
+[31m-      <find>remove_bulk_ss_items</find>[m
+[31m-      <find>delete clicked</find>[m
+[31m-      <find>$initial_tree_state</find>[m
+[31m-      <find>array(&quot;opened&quot;</find>[m
+[31m-      <find>tree</find>[m
+[31m-      <find>add</find>[m
+[31m-      <find>getdata</find>[m
+[31m-      <find>true</find>[m
+[31m-      <find>get_costgroup_by_id</find>[m
+[31m-      <find>get_costgroup_tree</find>[m
+       <find>add_costgroup_button</find>[m
+       <find>treeData</find>[m
+       <find>delete</find>[m
+       <find>update</find>[m
+[31m-      <find>renumber</find>[m
+       <find>assembly_tree</find>[m
+       <find>core</find>[m
+       <find>document</find>[m
+[31m-      <find>get_data</find>[m
+       <find>open_folder</find>[m
+       <find>default_section</find>[m
+       <find>stdClass</find>[m
+[32m+[m[32m      <find>add</find>[m
+[32m+[m[32m      <find>create_costitem_tree_ok</find>[m
+[32m+[m[32m      <find>create_costitem_tree_ok</find>[m
+[32m+[m[32m      <find>$all_cost_group</find>[m
+[32m+[m[32m      <find>daa</find>[m
+[32m+[m[32m      <find>origin_costitem</find>[m
+[32m+[m[32m      <find>updateConversionFactor</find>[m
+[32m+[m[32m      <find>data</find>[m
+[32m+[m[32m      <find>refre</find>[m
+[32m+[m[32m      <find>conversion_factor</find>[m
+[32m+[m[32m      <find>costgroup</find>[m
+[32m+[m[32m      <find>renumber</find>[m
+[32m+[m[32m      <find>renumbering</find>[m
+[32m+[m[32m      <find>get_data</find>[m
+[32m+[m[32m      <find>$</find>[m
+[32m+[m[32m      <find>onTakeoffUOMChange</find>[m
+[32m+[m[32m      <find>#add&quot;</find>[m
+[32m+[m[32m      <find>cancel</find>[m
+[32m+[m[32m      <find>conversion</find>[m
+[32m+[m[32m      <find>aconversion_factor</find>[m
+     </findStrings>[m
+   </component>[m
+   <component name="Git.Settings">[m
+[36m@@ -119,9 +182,6 @@[m
+         <option value="$PROJECT_DIR$/app/Models/SSSetting.php" />[m
+         <option value="$PROJECT_DIR$/public/css/styles.css" />[m
+         <option value="$PROJECT_DIR$/resources/views/partials/nav.blade.php" />[m
+[31m-        <option value="$PROJECT_DIR$/resources/views/costitem/default-costitem.blade.php" />[m
+[31m-        <option value="$PROJECT_DIR$/resources/views/scripts/costitem-js.blade.php" />[m
+[31m-        <option value="$PROJECT_DIR$/resources/views/costitem/create-costitem.blade.php" />[m
+         <option value="$PROJECT_DIR$/resources/views/partials/spreadsheet-sidebar.blade.php" />[m
+         <option value="$PROJECT_DIR$/resources/views/project/spreadsheet.blade.php" />[m
+         <option value="$PROJECT_DIR$/public/css/spreadsheet.css" />[m
+[36m@@ -134,7 +194,12 @@[m
+         <option value="$PROJECT_DIR$/resources/views/costgroup/pagination.blade.php" />[m
+         <option value="$PROJECT_DIR$/resources/views/scripts/costgroup-treejs.blade.php" />[m
+         <option value="$PROJECT_DIR$/resources/views/scripts/costgroup-js.blade.php" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/resources/views/costitem/create-costitem.blade.php" />[m
+         <option value="$PROJECT_DIR$/app/Http/Controllers/CostItemController.php" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/public/css/costitem.css" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/resources/views/scripts/costitem-js.blade.php" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/resources/views/scripts/costitem-treejs.blade.php" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/resources/views/costitem/default-costitem.blade.php" />[m
+       </list>[m
+     </option>[m
+   </component>[m
+[36m@@ -201,16 +266,34 @@[m
+               <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />[m
+               <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />[m
+             </path>[m
+[32m+[m[32m            <path>[m
+[32m+[m[32m              <item name="takefflite_siteground" type="b2602c69:ProjectViewProjectNode" />[m
+[32m+[m[32m              <item name="takefflite_siteground" type="2a2b976b:PhpTreeStructureProvider$1" />[m
+[32m+[m[32m              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />[m
+[32m+[m[32m            </path>[m
+[32m+[m[32m            <path>[m
+[32m+[m[32m              <item name="takefflite_siteground" type="b2602c69:ProjectViewProjectNode" />[m
+[32m+[m[32m              <item name="takefflite_siteground" type="2a2b976b:PhpTreeStructureProvider$1" />[m
+[32m+[m[32m              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />[m
+[32m+[m[32m              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />[m
+[32m+[m[32m            </path>[m
+[32m+[m[32m            <path>[m
+[32m+[m[32m              <item name="takefflite_siteground" type="b2602c69:ProjectViewProjectNode" />[m
+[32m+[m[32m              <item name="takefflite_siteground" type="2a2b976b:PhpTreeStructureProvider$1" />[m
+[32m+[m[32m              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />[m
+[32m+[m[32m            </path>[m
+             <path>[m
+               <item name="takefflite_siteground" type="b2602c69:ProjectViewProjectNode" />[m
+               <item name="takefflite_siteground" type="2a2b976b:PhpTreeStructureProvider$1" />[m
+               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />[m
+[32m+[m[32m              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />[m
+             </path>[m
+             <path>[m
+               <item name="takefflite_siteground" type="b2602c69:ProjectViewProjectNode" />[m
+               <item name="takefflite_siteground" type="2a2b976b:PhpTreeStructureProvider$1" />[m
+               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />[m
+               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />[m
+[32m+[m[32m              <item name="costgroup" type="2a2b976b:PhpTreeStructureProvider$1" />[m
+             </path>[m
+             <path>[m
+               <item name="takefflite_siteground" type="b2602c69:ProjectViewProjectNode" />[m
+[36m@@ -278,13 +361,13 @@[m
+     <servers />[m
+   </component>[m
+   <component name="TimeTrackingManager">[m
+[31m-    <option name="totallyTimeSpent" value="137092000" />[m
+[32m+[m[32m    <option name="totallyTimeSpent" value="142646000" />[m
+   </component>[m
+   <component name="ToolWindowManager">[m
+     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />[m
+     <editor active="true" />[m
+     <layout>[m
+[31m-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19029851" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />[m
+[32m+[m[32m      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19029851" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />[m
+       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />[m
+       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />[m
+       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />[m
+[36m@@ -322,20 +405,12 @@[m
+     <option name="myLimit" value="2678400000" />[m
+   </component>[m
+   <component name="XDebuggerManager">[m
+[31m-    <breakpoint-manager />[m
+[32m+[m[32m    <breakpoint-manager>[m
+[32m+[m[32m      <option name="time" value="1" />[m
+[32m+[m[32m    </breakpoint-manager>[m
+     <watches-manager />[m
+   </component>[m
+   <component name="editorHistoryManager">[m
+[31m-    <entry file="file://$PROJECT_DIR$/resources/views/project/spreadsheet.blade.php">[m
+[31m-      <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="44">[m
+[31m-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />[m
+[31m-          <folding>[m
+[31m-            <element signature="e#196#219#0#HTML" expanded="false" />[m
+[31m-          </folding>[m
+[31m-        </state>[m
+[31m-      </provider>[m
+[31m-    </entry>[m
+     <entry file="file://$PROJECT_DIR$/resources/views/partials/tabs.blade.php">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+         <state relative-caret-position="286">[m
+[36m@@ -450,6 +525,7 @@[m
+       <provider selected="true" editor-type-id="text-editor">[m
+         <state relative-caret-position="-264">[m
+           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />[m
+[32m+[m[32m          <folding />[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[36m@@ -502,27 +578,6 @@[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/resources/views/costitem/show-costitem.blade.php">[m
+[31m-      <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="528">[m
+[31m-          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />[m
+[31m-        </state>[m
+[31m-      </provider>[m
+[31m-    </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/resources/views/costitem/create-costitem.blade.php">[m
+[31m-      <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="-117">[m
+[31m-          <caret line="91" column="24" lean-forward="true" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />[m
+[31m-        </state>[m
+[31m-      </provider>[m
+[31m-    </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/resources/views/costitem/default-costitem.blade.php">[m
+[31m-      <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="295">[m
+[31m-          <caret line="69" column="52" lean-forward="false" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="52" />[m
+[31m-        </state>[m
+[31m-      </provider>[m
+[31m-    </entry>[m
+     <entry file="file://$PROJECT_DIR$/public/css/styles.css">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+         <state relative-caret-position="22">[m
+[36m@@ -651,18 +706,34 @@[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/resources/views/scripts/costitem-treejs.blade.php">[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/resources/views/costgroup/show-costgroup.blade.php">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="330">[m
+[31m-          <caret line="96" column="40" lean-forward="false" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="40" />[m
+[32m+[m[32m        <state relative-caret-position="132">[m
+[32m+[m[32m          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />[m
+           <folding />[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/resources/views/scripts/costitem-js.blade.php">[m
+[32m+[m[32m    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="176">[m
+[32m+[m[32m          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />[m
+[32m+[m[32m          <folding />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/resources/views/scripts/costgroup-js.blade.php">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="213">[m
+[32m+[m[32m          <caret line="55" column="37" lean-forward="false" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />[m
+[32m+[m[32m          <folding />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/resources/views/scripts/costgroup-treejs.blade.php">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="647">[m
+[31m-          <caret line="301" column="84" lean-forward="false" selection-start-line="301" selection-start-column="20" selection-end-line="301" selection-end-column="84" />[m
+[32m+[m[32m        <state relative-caret-position="191">[m
+[32m+[m[32m          <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="47" selection-end-column="50" />[m
+           <folding />[m
+         </state>[m
+       </provider>[m
+[36m@@ -672,68 +743,105 @@[m
+         <state relative-caret-position="337">[m
+           <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />[m
+           <folding>[m
+[31m-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />[m
+             <marker date="1612276872915" expanded="true" signature="1181:1322" ph="..." />[m
+             <marker date="1612276872915" expanded="true" signature="1515:1665" ph="..." />[m
+           </folding>[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/resources/views/scripts/costgroup-js.blade.php">[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CostGroupController.php">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="-1730">[m
+[31m-          <caret line="103" column="51" lean-forward="false" selection-start-line="103" selection-start-column="51" selection-end-line="103" selection-end-column="51" />[m
+[32m+[m[32m        <state relative-caret-position="-2082">[m
+[32m+[m[32m          <caret line="83" column="81" lean-forward="false" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="81" />[m
+           <folding>[m
+[31m-            <element signature="e#202#390#0#HTML" expanded="false" />[m
+[31m-            <element signature="e#470#549#0#HTML" expanded="false" />[m
+[31m-            <element signature="e#616#1796#0#HTML" expanded

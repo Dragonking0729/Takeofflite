@@ -1,0 +1,66 @@
+.sheet-tab a.nav-link.active {
+    background: #365799;
+    color: #ffffff;
+}
+
+.flip_body {
+    padding: 25px;
+    border: 1px solid #006b5c;
+    border-radius: 15px;
+}
+
+.flip-analysis-card {
+    font-size: 16px;
+}
+
+.flip-analysis-line {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.profit, .max_purchase_price {
+    padding: 10px;
+    border-bottom: 1px solid #3cbc8d;
+    background-color: #f5fbf9;
+}
+
+.negative {
+    background-color: #ffe6e6;
+    border-bottom-color: #FF232B;
+}
+
+
+/* detail style */
+.show-financing-detail, .show-acquisition-detail, .show-holding-detail, .show-selling-detail {
+    cursor: pointer;
+}
+
+table tr th, td {
+    text-align: center;
+    padding: 3px;
+}
+
+.row_remove {
+    cursor: pointer;
+    color: red;
+}
+
+.acquisition-detail, .holding-detail, .financing-detail, .selling-detail {
+    display: none;
+    margin-bottom: 1rem;
+    border: 1px solid #006b5c;
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.detail-total-cost {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+    background-color: #f6ffff;
+    width: 82%;
+}

@@ -1,0 +1,515 @@
+/* proposal toolbar style*/
+.proposal_toolbar {
+    color: #006c5c;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    padding: 4px;
+    margin: 1px 4px 2px 1px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    min-width: fit-content;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.total_values {
+    display: flex;
+    justify-content: space-around;
+}
+
+.proposal_date {
+    text-align: right;
+}
+
+.print_proposal {
+    background: url("/icons/ss_print.svg") no-repeat 0 0 / 25px 25px;
+    width: 25px;
+    height: 27px;
+}
+
+.proposal_email {
+    background: url("/icons/invoice_email.svg") no-repeat 0 0 / 25px 25px;
+    width: 25px;
+    height: 27px;
+}
+
+.create_new_proposal {
+    background: url("/icons/create_invoice.svg") no-repeat 0 0 / 25px 25px;
+    width: 25px;
+    height: 27px;
+}
+
+.select_all {
+    background: url("/icons/uncheck.svg") no-repeat 0 0 / 20px 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.delete_proposal {
+    background: url("/icons/ss_delete.svg") no-repeat 0 0 / 25px 25px;
+    width: 25px;
+    height: 27px;
+}
+
+.remove_proposal {
+    background: url("/icons/delete_chat.svg") no-repeat 0 0 / 22px 22px;
+    width: 22px;
+    height: 20px;
+}
+
+.preview_proposal {
+    background: url("/icons/invoice_preview.svg") no-repeat 0 0 / 25px 27px;
+    width: 27px;
+    height: 27px;
+}
+
+.view_proposal {
+    background: url("/icons/view_invoice.svg") no-repeat 0 0 / 25px 27px;
+    width: 27px;
+    height: 27px;
+    display: none;
+}
+
+.unlock_preview {
+    background: url("/icons/unlock.svg") no-repeat 0 0 / 30px 30px;
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+.lock_preview {
+    background: url("/icons/lock.svg") no-repeat 0 0 / 30px 30px;
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+.show_hide_fields {
+    background: url("/icons/wireframe.svg") no-repeat 0 0 / 25px 27px;
+    width: 27px;
+    height: 27px;
+}
+
+/* proposal status dropdown style*/
+.approved {
+    color: white;
+    background: #006c5e;
+}
+
+.pending {
+    color: white;
+    background: red;
+}
+
+.not_sent {
+    color: black;
+    background: yellow;
+}
+
+.proposal_status_dropdown {
+    border-color: #006c5c;
+}
+
+.proposal_status_dropdown option[value='Not Sent'] {
+    color: black;
+    background: yellow;
+}
+
+.proposal_status_dropdown option[value='Pending Approval'] {
+    background: red;
+}
+
+.proposal_status_dropdown option[value='Approved'] {
+    background: #006c5c;
+}
+
+/* end proposal status dropdown style*/
+
+.select_proposal {
+    color: #006c5c;
+    border-color: #006c5c;
+    margin: 0;
+    height: fit-content;
+    max-height: 100%;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.document_text_dropdown {
+    color: #006c5c;
+    border-color: #006c5c;
+    margin: 3px 0 5px 0;
+    padding: 5px;
+}
+
+.select_proposal:focus-visible {
+    border-color: #006c5c;
+}
+
+.show_hide_block {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #006c5c;
+    border-radius: 5px;
+}
+
+.show_hide_block label {
+    color: #006c5c;
+}
+
+/* proposal item style*/
+.proposal_item {
+    display: flex;
+    border: 1px solid #006c5c;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.proposal_item label {
+    color: #006c5c;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.proposal_item_left {
+    border-right: 1px solid #006c5c;
+    padding: 5px;
+}
+
+.proposal_item_right_top {
+    display: flex;
+    border-bottom: 1px solid #006c5c;
+}
+
+.proposal_item_right_bottom {
+    display: none;
+    padding: 5px;
+}
+
+.item {
+    padding: 5px;
+    border-right: 1px solid #006c5c;
+    text-align: center;
+}
+
+.proposal_qty_uom_price_cost {
+    display: flex;
+    padding: 5px;
+    border-right: 1px solid #006c5c;
+    text-align: center;
+}
+
+.proposal_qty_uom_price_cost div {
+    margin-right: 5px;
+}
+
+.proposal_markup {
+    display: flex;
+    padding: 5px;
+    border-right: 1px solid #006c5c;
+    text-align: center;
+}
+
+.proposal_markup div {
+    margin-right: 5px;
+}
+
+.proposal_customer {
+    display: flex;
+    padding: 5px;
+    text-align: center;
+}
+
+.proposal_customer div {
+    margin-right: 5px;
+}
+
+.proposal_textarea {
+    display: flex;
+}
+
+.proposal_textarea div {
+    margin-right: 10px;
+}
+
+.proposal_title {
+    width: 250px;
+}
+
+.proposal_toilet {
+    width: 400px;
+}
+
+.proposal_notes {
+    width: 400px;
+}
+
+
+.select_proposal_item {
+    background: url("/icons/uncheck.svg") no-repeat center center / 20px 20px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-left: 4px;
+}
+
+.proposal_item_circle {
+    background: url("/icons/dots.svg") no-repeat 0 0 / 25px 25px;
+    width: 25px;
+    height: 25px;
+    display: block;
+}
+
+.proposal_detail_open_close {
+    background: url("/icons/expand_bottom.svg") no-repeat 0 0 / 25px 25px;
+    width: 25px;
+    height: 25px;
+    display: block;
+}
+
+.proposal_attach {
+    background: url("/icons/attach.svg") no-repeat 0 0 / 50px 50px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-top: 5px;
+}
+
+.remove_single_proposal_line {
+    background: url("/icons/ss_delete.svg") no-repeat center center / 25px 25px;
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-top: 17px;
+}
+
+.remove_single_proposal_line:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.jstree-default .jstree-icon:empty {
+    width: 20px;
+}
+
+#proposal_list ul li {
+    font-size: 12px;
+}
+
+#proposal_list ul li > ul {
+    margin-left: -12px !important;
+}
+
+.help_question {
+    text-align: center;
+    font-size: 12px;
+    color: #365799;
+}
+
+.sheet-tab a.nav-link.active {
+    background: #365799;
+    color: #ffffff;
+}
+
+#sidebar a.nav-link.active {
+    background: #365799;
+    color: #ffffff;
+}
+
+.btn-active {
+    color: #ffffff;
+    background-color: #076f6063 !important;
+    border-color: #076f6063;
+}
+
+.ask_interview_div {
+    border: 1px solid #006c5c;
+    border-radius: 3px;
+}
+
+.tree_search_area {
+    border: 1px solid #006c5c;
+    border-radius: 3px;
+    padding: 1px;
+    display: flex;
+}
+
+.ss_tree_expand {
+    background: url("/icons/ss_tree_expand.svg") no-repeat 0 0 / 38px 38px;
+    width: 38px;
+    height: 38px;
+}
+
+.ss_tree_collapse {
+    background: url("/icons/ss_tree_collapse.svg") no-repeat 0 0 / 38px 38px;
+    width: 38px;
+    height: 38px;
+}
+
+.ss_item_icon {
+    background: url("/icons/ss_item.svg") no-repeat 0 0 / 38px 38px;
+    width: 38px;
+    height: 38px;
+}
+
+.ss_interview_icon {
+    background: url("/icons/ss_interview.svg") no-repeat 0 0 / 38px 38px;
+    width: 38px;
+    height: 38px;
+}
+
+.ss_search_tree_icon {
+    background: url("/icons/ss_tree_search.svg") no-repeat 0 0 / 38px 38px;
+    width: 55px;
+    height: 38px;
+}
+
+.ss_clear_search_icon {
+    background: url("/icons/ss_clear_search.svg") no-repeat 0 0 / 38px 38px;
+    width: 55px;
+    height: 38px;
+}
+
+.ss_toggle {
+    background: url("/icons/ss_toggle_on.svg") no-repeat center center / 60px 60px;
+    width: 38px;
+    height: 38px;
+}
+
+.ss_info {
+    background: url("/icons/ss_info.svg") no-repeat center center / 38px 38px;
+    width: 38px;
+    height: 38px;
+}
+
+.ss_info:hover {
+    background-color: #6c757d;
+}
+
+.proposal_list_area {
+    border: 1px solid #006c5c;
+    border-radius: 3px;
+}
+
+#proposal_list {
+    overflow: auto;
+    height: 62vh;
+}
+
+#proposal_items_block {
+    height: 40vh;
+    overflow: auto;
+}
+
+#proposal_preview_block {
+    display: none;
+}
+
+/* responsive for print*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #proposal_preview_content {
+        padding: 3rem 20rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #proposal_preview_content {
+        padding: 3rem 20rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #proposal_preview_content {
+        padding: 3rem 20rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #proposal_preview_content {
+        padding: 3rem 20rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #proposal_preview_content {
+        padding: 3rem 20rem;
+    }
+}
+
+/* end responsive for print invoice*/
+
+.proposal_preview_header {
+    color: #006c5c;
+    border-bottom: 1px solid;
+}
+
+.proposal_body_items {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.proposal_body_items table {
+    width: 100%;
+}
+
+.proposal_body_items tr {
+    border-bottom: 1px solid grey;
+}
+
+.proposal_body_items table tr th:nth-child(1) {
+    width: 20%;
+}
+
+.proposal_body_items table tr th:nth-child(2) {
+    width: 80%;
+}
+
+.proposal_body_items div {
+    color: white;
+    background-color: #365799;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.proposal_preview_total_price {
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+}
+
+.proposal_sign_print_date {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.proposal_sign_print_date table {
+    width: 50%;
+}
+
+.proposal_sign_print_date table tr td:nth-child(1) {
+    width: 30%;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.proposal_sign_print_date table tr td:nth-child(2) {
+    width: 70%;
+    border-bottom: 1px solid grey;
+}

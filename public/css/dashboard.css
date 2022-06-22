@@ -1,0 +1,57 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .job-share-div {
+        display: none;
+    }
+}
+
+.card-link:hover {
+    background: #076f6063;
+    color: white;
+}
+
+.dashboard-icon-text {
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+/* form valid error class */
+.error {
+    color: red;
+}
+
+.cost-group-icon {
+    background: url("/icons/ss_sort_group.svg") no-repeat center center / 40px 40px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.cost-item-icon {
+    background: url("/icons/ss_item.svg") no-repeat center center / 40px 40px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.interview-icon {
+    background: url("/icons/ss_interview.svg") no-repeat center center / 40px 40px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+/*scrollable modal body*/
+#edit_project .modal-body {
+    height: 60vh;
+    overflow: scroll;
+}
+
+#edit_company .modal-body {
+    height: 60vh;
+    overflow: scroll;
+}
+
+.shared_job {
+    border: 3px solid #365799 !important;
+}

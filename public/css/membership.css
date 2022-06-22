@@ -1,0 +1,86 @@
+.plan-item {
+    background-color: #fff;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    color: #333;
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 10%);
+}
+
+.theme-bg {
+    border-color: #006B5C rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #006B5C;
+}
+
+.plan-item__name-bg {
+    border-style: solid;
+    border-width: 110px 1400px 30px 475px;
+    position: absolute;
+}
+
+.theme-bg + .plan-item__name {
+    color: #fff;
+}
+
+.plan-item__name {
+    position: relative;
+    z-index: 3;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 35px;
+    letter-spacing: 3px;
+}
+
+.plan-item__price {
+    padding-top: 70px;
+    background-color: #f6f6f6;
+    padding-bottom: 20px;
+}
+
+.plan-item__sign {
+    font-size: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -40px;
+}
+
+.plan-item__currency {
+    font-size: 60px;
+}
+
+.plan-item__cent, .plan-item__month {
+    font-size: 18px;
+}
+
+
+.plan-item__features {
+    margin: 0;
+    list-style: none;
+    padding: 30px 30px 100px;
+}
+
+.plan-item__features-item {
+    padding: 12px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.plan__button-wrapper {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+/* daily logs toolbar style*/
+#daily_log_toolbar {
+    color: #006c5c;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    padding: 4px;
+    margin: 1px 4px 2px 1px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    min-width: fit-content;
+    font-size: 16px;
+    font-weight: bold;
+    display: none;
+}
+
+.print_daily_log {
+    background: url(/icons/ss_print.svg) no-repeat 0 0 / 27px 25px;
+    width: 27px;
+    height: 27px;
+}
+
+/* daily logs style */
+.daily_log_item {
+    display: flex;
+    border: 1px solid #006c5c;
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+
+.daily_log_item_left {
+    border-right: 1px solid #006c5c;
+    padding: 5px;
+    width: 3%;
+}
+
+
+.daily_log_detail_open_close {
+    background: url("/icons/expand_bottom.svg") no-repeat 0 0 / 25px 25px;
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+.daily_log_item_right {
+    width: 97%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.daily_log_item_right_top {
+    display: flex;
+    border-bottom: 1px solid #006c5c;
+}
+
+.daily_log_item_right_bottom {
+    display: none;
+    padding: 5px;
+}
+
+
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url("/icons/calendar.svg") no-repeat 0 0 / 20px 20px;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}
+
+.daily_log_area {
+    margin-bottom: 75px;
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.attach_file_name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
